@@ -30,27 +30,27 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3_navbar-sign">
-      <p>Signin</p>
-      <button>Sign Up</button>
+      <p>Sign in</p>
+      <button type="button">Sign Up</button>
       </div>
       <div className="gpt3_navbar-menu">
         {togglemenu
-          ? <RiCloseLine color="#ffffff" size={27} onClick={() => setTogglemenu(false) } />
-          : <RiMenu3Line color="#ffffff" size={27} onClick={() => setTogglemenu(true) } />
+          ? <RiCloseLine color="#ffffff" size={30} onClick={() => setTogglemenu(false) } />
+          : <RiMenu3Line color="#ffffff" size={30} onClick={() => setTogglemenu(true) } />
         }
         {
             togglemenu &&(
                 <div className="gpt3_navbar-menu_container scale-up-center">
                     <div className="gpt3_navbar-menu_container-links">
                         <Menu/>
-                        <div className="gpt3_navbar-menu_container">
+                    </div>
+                        <div className="gpt3_navbar-menu_container-links-sign">
                         <p>Signin</p>
                         <button>Sign Up</button>
-                        </div>
-                    </div>
+                    </div> 
                 </div>
-            )
-        }
+                
+            )}
       </div>
     </div>
   );
