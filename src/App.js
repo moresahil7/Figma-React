@@ -1,8 +1,6 @@
 import React from 'react'
 import{
-  Article,
   Brand,
-  Feature,
   CTA,
   Navbar} 
 from "./components"
