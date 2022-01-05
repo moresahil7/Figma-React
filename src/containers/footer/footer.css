@@ -1,0 +1,44 @@
+.gpt3_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.gpt3_footer-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gpt3_footer-heading h1{
+    width: 60%;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+.gpt3_footer-btn{
+    
+
+}
+.gpt3_footer-btn p{
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+
+
+}
